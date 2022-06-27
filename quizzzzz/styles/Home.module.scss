@@ -103,10 +103,18 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
+// .slide {
+//   animation: slide 3s infinite;
+// }
+
+// @keyframes slide {
+//   0% {
+//     transform: translateX(100%);
+//   }
+//   100% {
+//     transform: translateX(-500%);
+//   }
+// }
 
 @media (max-width: 600px) {
   .grid {
