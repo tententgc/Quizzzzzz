@@ -6,7 +6,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  height: 200vh;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -ms-overflow-style: none; /* IE and Edge */
@@ -57,4 +56,11 @@ submit {
 
 .disable-scroll {
   overflow-y: hidden;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
