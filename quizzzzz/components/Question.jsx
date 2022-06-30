@@ -29,26 +29,6 @@ const Question = ({ ...props }) => {
     );
   }, [qNumber]);
 
-<<<<<<< HEAD
-
-export const getStaticProps = async () => { 
-
-    const res = await fetch("https://jsonplaceholder.typicode.com/users");
-    const data = await res.json();
-
-    return { 
-      props : { question : data }
-    } 
-}
-
-
-const Question = ({question}) => {
-  return (
-     <div>
-        
-     </div>
-  )
-=======
   const handlePageChange = () => {
     document.querySelectorAll("#question").forEach((e) => {
       e.classList.add(styles.changeQuestion);
@@ -78,7 +58,6 @@ const Question = ({question}) => {
       {renderRight}
     </div>
   );
->>>>>>> upstream/main
 };
 
 export default Question;
