@@ -7,14 +7,17 @@ export const getStaticProps = async () => {
     const data = await res.json();
 
     return { 
-      props : { quiz : data }
-    }
-
-
+      props : { question : data }
+    } 
 }
-const Question = ({quiz}) => {
-  console.log(quiz)
-  return <div className="h-screen"> {quiz.name}</div>;
+
+
+const Question = ({question}) => {
+  return (
+     <div>
+        
+     </div>
+  )
 };
 
 export default Question;
