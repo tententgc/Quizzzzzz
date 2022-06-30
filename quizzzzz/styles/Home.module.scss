@@ -1,11 +1,5 @@
-.container {
-  padding: 0 2rem;
-}
-
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,18 +97,9 @@
   line-height: 1.5;
 }
 
-// .slide {
-//   animation: slide 3s infinite;
-// }
-
-// @keyframes slide {
-//   0% {
-//     transform: translateX(100%);
-//   }
-//   100% {
-//     transform: translateX(-500%);
-//   }
-// }
+.slideUp {
+  transform: translateY(-100vh);
+}
 
 @media (max-width: 600px) {
   .grid {
